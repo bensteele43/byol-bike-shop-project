@@ -1,0 +1,44 @@
+a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.navbutton {
+    background-color: navy;
+    padding: 11px 25px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-box {
+    display: none;
+    position: absolute;
+    padding-top: 6px;
+    margin-left: -25px;
+}
+
+.navbutton:hover .dropdown-box{
+    display: block;
+}
+
+.subbutton {
+    background-color: deeppink;
+    margin-top: 5px;
+    padding: 11px 25px;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+.subbutton:hover {
+    margin-top: 5px;
+    display: block;
+    padding: 22px 50px;
+    margin-left: -25px;
+    background-color: aquamarine;
+}
+
